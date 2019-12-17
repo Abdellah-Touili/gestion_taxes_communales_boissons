@@ -19,4 +19,6 @@ public interface LocalDao extends JpaRepository<Local, Long> {
 
 	@Query("SELECT l FROM Local l WHERE l.derniereAnneePayee = 2018")
 	public List<Local> findAllLocal();
+	
+
 }

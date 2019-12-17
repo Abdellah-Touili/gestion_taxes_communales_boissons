@@ -19,5 +19,7 @@ public interface AvertissementRedevableService {
 	public <list>AvertissementRedevable findByLocalId(Long id);
 
 	public <list>AvertissementRedevable findByTypeAvertissementId(Long id);
-
+	
+	public List<AvertissementRedevable> findAvertissementByRedevablaAndLocal();
+   
 }

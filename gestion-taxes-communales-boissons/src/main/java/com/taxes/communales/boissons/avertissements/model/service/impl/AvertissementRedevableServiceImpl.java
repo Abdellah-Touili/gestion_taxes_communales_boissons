@@ -49,4 +49,11 @@ public class AvertissementRedevableServiceImpl implements AvertissementRedevable
 		return avertissementRedevableDao.findByTypeAvertissementId(id);
 	}
 
+	@Override
+	public List<AvertissementRedevable> findAvertissementByRedevablaAndLocal() {
+		// TODO Auto-generated method stub
+		return avertissementRedevableDao.findAvertissementByRedevablaAndLocal();
+	}
+	
+
 }

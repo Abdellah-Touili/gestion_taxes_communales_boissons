@@ -1,4 +1,4 @@
-package com.taxes.communales.boissons.avertissements.model.ws;
+package com.taxes.communales.boissons.avertissements.model.ws.provided;
 
 import java.util.List;
 import java.util.Optional;
@@ -50,5 +50,9 @@ public class AvertissementRedevableRest {
 		return avertissementRedevableService.findByTypeAvertissementId(id);
 	}
 
+	@GetMapping("/redevable-local/")
+	public List<AvertissementRedevable> findAvertissementByRedevablaAndLocal() {
+		return avertissementRedevableService.findAvertissementByRedevablaAndLocal();
+	}
 	
 }

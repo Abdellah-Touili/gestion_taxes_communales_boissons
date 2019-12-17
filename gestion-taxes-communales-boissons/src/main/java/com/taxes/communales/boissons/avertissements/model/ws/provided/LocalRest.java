@@ -1,4 +1,4 @@
-package com.taxes.communales.boissons.avertissements.model.ws;
+package com.taxes.communales.boissons.avertissements.model.ws.provided;
 
 import java.util.List;
 
